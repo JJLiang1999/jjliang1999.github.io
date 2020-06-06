@@ -3,7 +3,7 @@
     width: 50%;
 }
 
-.img-fluid {
+#test img {
     display: block;
     width: 100%;
     height: auto;
@@ -55,4 +55,23 @@ p {
     font-family: 'Microsoft JhengHei', sans-serif;
     font-size: 18px;
     color: #265ead;
+}
+
+.portfolio-wrap img {
+    width: 330px;
+    max-height: 340px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.con {
+    font-size: 20px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.right {
+    text-align: center;
 }
