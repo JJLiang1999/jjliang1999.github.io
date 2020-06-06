@@ -1,0 +1,77 @@
+#test {
+    position: relative;
+    width: 50%;
+}
+
+#test img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 4%;
+    right: 0%;
+    background-color: #37b3ed;
+    overflow: hidden;
+    width: 332px;
+    height: 0;
+    transition: .5s ease;
+}
+
+#test:hover .overlay {
+    bottom: 31px;
+    height: 466px;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.try {
+    color: #37b3ed;
+    font-size: 24px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+p {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 18px;
+}
+
+#useless {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 18px;
+    color: #265ead;
+}
+
+.portfolio-wrap img {
+    width: 330px;
+    max-height: 340px;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.con {
+    font-size: 20px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.right {
+    text-align: center;
+}
