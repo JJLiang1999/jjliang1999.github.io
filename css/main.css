@@ -6,24 +6,23 @@
 #test img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 95%;
 }
 
 .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 5%;
     left: 4%;
-    right: 0%;
+    right: 0;
     background-color: #37b3ed;
     overflow: hidden;
-    width: 332px;
-    height: 0;
+    width: 0;
+    height: 95%;
     transition: .5s ease;
 }
 
 #test:hover .overlay {
-    bottom: 31px;
-    height: 466px;
+    width: 92%;
 }
 
 .text {
@@ -74,4 +73,16 @@ h3 {
 
 .right {
     text-align: center;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 18px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    color: white;
+    background-color: black;
+    opacity: 0.75;
+    border-style: solid;
 }
